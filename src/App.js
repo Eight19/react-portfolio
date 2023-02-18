@@ -9,53 +9,52 @@ function App() {
         <div>
         <Navbar bg="dark" variant="dark">
           <Container>
-            <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+            <Navbar.Brand href="#home">PORTFOLIO</Navbar.Brand>
             <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#features">Features</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
+              <Nav.Link href="#Projects">Projects coming soon!</Nav.Link>
+              {/* <Nav.Link href="#Credentials">Coming soon!</Nav.Link>
+              <Nav.Link href="#">Services</Nav.Link> */}
             </Nav>
           </Container>
         </Navbar>
 
         <Carousel>
       <Carousel.Item>
+        <h1>TIFFANY JONES</h1>
       <img
           className="d-block w-100"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoUK5Tuhqge4_-DgVFW7mNZgYDknKIkvW6yQ&usqp=CAU?text=First slide&bg=373940"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoUK5Tuhqge4_-DgVFW7mNZgYDknKIkvW6yQ&usqp=CAU?text=Firstslide&bg=373940"
           alt="First slide"
         />
 
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3></h3>
+          <p>.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU9vD_Ybt4kk7hci74_tHdlc7AvQXApLmxwg&usqp=CAU
-          ?text=Second slide&bg=282c34"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU9vD_Ybt4kk7hci74_tHdlc7AvQXApLmxwg&usqp=CAU?text=Secondslide&bg=282c34"
           alt="Second slide"
         />
 
         <Carousel.Caption>
           <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>smile.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHk9DnkA9IxziI_nw9jWPNcE7ovJAVNJMQ8Q&usqp=CAU
-          ?text=Third slide&bg=20232a"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHk9DnkA9IxziI_nw9jWPNcE7ovJAVNJMQ8Q&usqp=CAU?text=Thirdslide&bg=20232a"
           alt="Third slide"
         />
 
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Smile.
           </p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -63,20 +62,19 @@ function App() {
     <Card>
       <Card.Header>ABOUT ME</Card.Header>
       <Card.Body>
-        <Card.Title>Special title treatment</Card.Title>
+        <Card.Title></Card.Title>
         <Card.Text>
-          With supporting text below as a natural lead-in to additional content.
+        I am a solution-focused professional with the ability to apply business requirements and functional specifications to configure, design, and develop innovative applications using advanced technologies. I enjoy implementing and maintaining business and enterprise software solutions to ensure successful deployment of released applications.
         </Card.Text>
           </Card.Body>
     </Card>
     <Card>
       <Card.Header>CONTACT ME</Card.Header>
       <Card.Body>
-        <Card.Title>Special title treatment</Card.Title>
+        <Card.Title>All projects can be viewed at https://github.com/Eight19</Card.Title>
         <Card.Text>
-          With supporting text below as a natural lead-in to additional content.
-        </Card.Text>
-        </Card.Body>
+          You can  also reach me via email at https://www.eight19realty@gmail.com</Card.Text>
+      </Card.Body>
     </Card>
         </div>
   );
